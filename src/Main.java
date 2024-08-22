@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program");
-        int empType = (int) (Math.random() * 3); // 0-Absent, 1-Full-time, 2-Part-time
+        int empType = (int) (Math.random() * 3);
         int wagePerHour = 20;
         int fullDayHour = 8;
         int partTimeHour = 4;
